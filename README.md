@@ -44,6 +44,11 @@ A curated list of frontend interview questions.
 * List semantic elements in HTML5 as much as you can and why we need them.
 * Write a ‘Hello, Word!’ html page. (whether get to know the necessary HTML tag for one page, DOCTYPE definition,...)
 * What's difference between XHTML and HTML4?
+* What's the difference betwee h1~h6? How's about difference between ul and ol?
+* Have you ever got a chance to use dl, dt, dd? What's the sematic for them?
+* What's the common properties used with `form`?
+* What's going on if we don't set the `type` property for `input` element?
+* What's the use case if we set the `type` property as `image` for `input` element?
 
 ## <a name='css'>CSS</a>
 
@@ -52,22 +57,68 @@ A curated list of frontend interview questions.
 * CSS Layout.
 * What is CSS stack and say something about it?
 * List the browser compatibility problems you have ever used or known.
-* List the possible values for ‘position’ property and what it’s used for.
+* List the possible values for `position` property and the result for every value.
+* List the possible values for `display` property and the resule for every value.
+* What is the distinguishing feature provided by `display: inline-block`?
 * Say something about CSS3, such as transition, animation, transform, etc..
 * What's box-sizing and when you need it?
 * What’s CSS transform?
 * Say something about Flexbox: why we need it? how it works? how we use it?
 * Why Table are bad for layout?
+* What's use case for float property? How to clear float?
+* What CSS selector have you ever used?
 
 ## <a name='problem-solving'>Problem Solving</a>
+
+* Add a `unique` method for Array object for producing a duplicate-free version of the array using Vanilla JS.
+* Implement deep clone for inheritance by copying properties from object using Vanilla JS.
+* Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as Red.
+* Change all elements with className of “test” to yellow background using JavaScript and jQuery.
+* Write a marquee program using JavaScript.
+* Translate your hexadecimal color value to RGB.
+* Generate random numbers that are consecutively unique.
+* Find the index of the smallest element in a JavaScript array.
+* Check whether a value is an integer in JavaScript.
+* How to load CSS/JavaScript files asynchronously?
+* Make it work: [1, 2, 3].duplicate();  // [1, 2, 3, 1, 2, 3]
+* Checking whether a value is NaN in JavaScript?
+* Make the codes below work as expected with a simple template engine.
+
+~~~JavaScript
+    var tpl = template('<p>hey there {{ name }}</p>');
+    var div = document.createElement('div');
+    div.innerHTML = tpl({ name: 'Neo' });
+    document.body.appendChild(div);
+~~~
+
+* Define a `spacify` function which takes a string as an argument, and returns the same string but with each character separated by a space, for example: 
+
+~~~JavaScript
+spacify('hello world') // => 'h e l l o w o r l d'
+~~~~
+
+If it's right, the follow-up question to this, is to place the spacify function directly on the String object, for example:
+
+~~~JavaScript
+'hello world'.spacify();
+~~~~
 
 ## <a name='http'>HTTP</a>
 
 * List HTTP status codes as much as you can.
+* What's the meaning for HTTP status of 200, 302, 304, 404, 500, 503.
 * Introduce something about Web Cache or HTTP caching, such as what's Conditional GET Requests? Etags? Expires? Cache-Control?
-* What’s the difference between Get and Post http method?
-* 
+* What's the difference between Get and Post http method?
+* What's the difference between HTTP stateless and `Connection:keep-alive`?
+* What's the message structure for Http Request/Response?
+* What's the difference between HTTP status code 301 and 302? How search engines handle them?
+* What's the HTTP Header relead with cache? What's the usage for them?
+* When you're sending a Ajax request, how to judge whether full server response has been received and it's OK for you to continue processing it?
+* Why we could avoid local cache when using CTRL+F5 or refresh button to reload the page?
+* Why we should put stylesheets at the top and put the scripts at the Bottom?
 
 ## <a name='algorithms'>Algorithms</a>
+
+
 
 * Implement Array.prototype.sort using merge sort.
