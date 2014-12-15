@@ -32,7 +32,7 @@ A curated list of frontend interview questions.
 
 ## <a name='html'>HTML</a>
 
-* What is <!DOCTYPE> tag? How to use it?
+* What is `<!DOCTYPE>` tag? How to use it?
 * What’s the possible values of `display` property? What is block and inline element and what the difference between them? List block and inline tags as much as you can.
 * What’s the difference between childNodes[] and children[]?
 * DOM structure – how nodes are related to one another and how to traverse from one to the next.
@@ -70,38 +70,41 @@ A curated list of frontend interview questions.
 
 ## <a name='problem-solving'>Problem Solving</a>
 
-* Add a `unique` method for Array object for producing a duplicate-free version of the array using Vanilla JS.
+* Add a `unique` method for Array in order to produce a duplicate-free version of the array using Vanilla JS.
 * Implement deep clone for inheritance by copying properties from object using Vanilla JS.
-* Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as Red.
-* Change all elements with className of “test” to yellow background using JavaScript and jQuery.
+* Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as red.
+* Change all elements with className of `test` to yellow background using JavaScript or jQuery.
 * Write a marquee program using JavaScript.
 * Translate your hexadecimal color value to RGB.
 * Generate random numbers that are consecutively unique.
 * Find the index of the smallest element in a JavaScript array.
 * Check whether a value is an integer in JavaScript.
 * How to load CSS/JavaScript files asynchronously?
-* Make it work: [1, 2, 3].duplicate();  // [1, 2, 3, 1, 2, 3]
-* Checking whether a value is NaN in JavaScript?
+* Make it work:
+  ~~~JavaScript
+  // [1, 2, 3].duplicate(); // [1, 2, 3] => [1, 2, 3, 1, 2, 3]
+  ~~~
+* Checking whether a value is `NaN` in JavaScript?
 * Make the codes below work as expected with a simple template engine.
 
-~~~JavaScript
-    var tpl = template('<p>hey there {{ name }}</p>');
-    var div = document.createElement('div');
-    div.innerHTML = tpl({ name: 'Neo' });
-    document.body.appendChild(div);
-~~~
+  ~~~JavaScript
+  var tpl = template('<p>hey there {{ name }}</p>');
+  var div = document.createElement('div');
+  div.innerHTML = tpl({ name: 'Neo' });
+  document.body.appendChild(div);
+  ~~~
 
 * Define a `spacify` function which takes a string as an argument, and returns the same string but with each character separated by a space, for example: 
 
-~~~JavaScript
-spacify('hello world') // => 'h e l l o w o r l d'
-~~~~
+  ~~~JavaScript
+  spacify('hello world') // => 'h e l l o w o r l d'
+  ~~~~
 
-If it's right, the follow-up question to this, is to place the spacify function directly on the String object, for example:
+  If it's right, the follow-up question to this, is to place the spacify function directly on the String object, for example:
 
-~~~JavaScript
-'hello world'.spacify();
-~~~~
+  ~~~JavaScript
+  'hello world'.spacify();
+  ~~~~
 
 ## <a name='http'>HTTP</a>
 
@@ -119,6 +122,4 @@ If it's right, the follow-up question to this, is to place the spacify function 
 
 ## <a name='algorithms'>Algorithms</a>
 
-
-
-* Implement Array.prototype.sort using merge sort.
+* Merge sort has a complexity of O(n*log n), making it one of the more efficient sorting algorithms available, also it's a stable sort. That's why Firefox and Safari use merge sort for their implementation of `Array.prototype.sort()`. Please implement `Array.prototype.sort()` using merge sort.
