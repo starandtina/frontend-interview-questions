@@ -13,6 +13,8 @@ A curated list of frontend interview questions.
 
 ## <a name='javascript'>JavaScript</a>
 
+* What is ECMAScript, JScript?
+* What is the Document Object Model(DOM)?
 * What’s the different between undefined and null? It’s better to say something about why we need undefined if we have had null.
 * What is AJAX? What the work flow for AJAX? How to implement CROS? What’s the difference synchronous and asynchronous for JavaScript?
 * Say something about JavaScript Encapsulation.
@@ -28,7 +30,7 @@ A curated list of frontend interview questions.
 * Promise - what it is, and why we need that? What problems it solve?
 * Using only a single event handler on the parent, detect a swipe left and a swipe right and alert() which direction was swiped.
 * Write an example of a closure in javascript. It doesn't matter what the code does, as long as it shows a closure being created.
-* Difference between document.write and innerHTML.
+* Difference between `document.write` and `innerHTML`.
 
 ## <a name='html'>HTML</a>
 
@@ -79,12 +81,12 @@ A curated list of frontend interview questions.
 * Generate random numbers that are consecutively unique.
 * Find the index of the smallest element in a JavaScript array.
 * Check whether a value is an integer in JavaScript.
-* How to load CSS/JavaScript files asynchronously?
 * Make it work:
   ~~~JavaScript
   // [1, 2, 3].duplicate(); // [1, 2, 3] => [1, 2, 3, 1, 2, 3]
   ~~~
 * Checking whether a value is `NaN` in JavaScript?
+* How to load CSS/JavaScript files asynchronously? If you know that, then write `loadCSS` and `loadJS` function in order to load CSS/JavaScript files asynchronously.
 * Make the codes below work as expected with a simple template engine.
 
   ~~~JavaScript
@@ -105,6 +107,15 @@ A curated list of frontend interview questions.
   ~~~JavaScript
   'hello world'.spacify();
   ~~~~
+
+* Implement collection pivot: Pivot means put all the things left of the middle element right, and vice versa,  
+
+  Eg: Pivot {A, B, C} should give {C, B, A}
+      Pivot { 1, 2, 3, 4 } should give { 3, 4, 1, 2 }
+      Pivot { 1, 2, 3, 4, 5, 6, 7 } should give { 5, 6, 7, 4, 1, 2, 3 }
+      Pivot { 11, 8, 45 } should give { 45, 8, 11 }
+  Hint: What type should input/output be? Why?
+
 
 ## <a name='http'>HTTP</a>
 
