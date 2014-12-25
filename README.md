@@ -112,7 +112,6 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
   ~~~JavaScript
   [1, 2, 3].duplicate(); // [1, 2, 3] => [1, 2, 3, 1, 2, 3]
   ~~~
-
 * Checking whether a value is `NaN` in JavaScript?
 * How to load CSS/JavaScript files asynchronously? If you know that, then write `loadCSS` and `loadJS` function in order to load CSS/JavaScript files asynchronously.
 * Make the codes below work as expected with a simple template engine.
@@ -123,19 +122,16 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
   div.innerHTML = tpl({ name: 'Neo' });
   document.body.appendChild(div);
   ~~~
-
 * Define a `spacify` function which takes a string as an argument, and returns the same string but with each character separated by a space, for example: 
 
   ~~~JavaScript
   spacify('hello world') // => 'h e l l o w o r l d'
   ~~~~
-
   If it's right, the follow-up question to this, is to place the spacify function directly on the String object, for example:
 
   ~~~JavaScript
   'hello world'.spacify();
   ~~~~
-
 * Implement collection pivot: Pivot means put all the things left of the middle element right, and vice versa,  
   
   ~~~JavaScript
@@ -145,9 +141,15 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
         Pivot { 11, 8, 45 } should give { 45, 8, 11 }
      Hint: What type should input/output be? Why?
   ~~~
+* Provide a functional version of `each` or `forEach` used to iterates over a list of elements, yielding each in turn to an iteratee function.
+* Provide a functional version of `function.apply`.
+* Partially apply a function by filling in any number of its arguments, without changing its dynamic this value. 
+* Implement _currying_ in which we could prefill arguments to a function before it's exectued.
+* Write your own function composition, returns the composition of a list of functions, where each function consumes the return value of the function that follows. In math terms, composing the functions `f()`, `g()`, and `h()` produces `f(g(h()))`.
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
 > Algorithms are at the heart of every nontrivial computer application, and algorithmics is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
 event candidates is that they are very strong in this area.
 
 * Merge sort has a complexity of O(n*log n), making it one of the more efficient sorting algorithms available, also it's a stable sort. That's why Firefox and Safari use merge sort for their implementation of `Array.prototype.sort()`. Please implement `Array.prototype.sort()` using merge sort.
+* Binary search implementation in JavaScript.
