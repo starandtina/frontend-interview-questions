@@ -27,6 +27,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What is ECMAScript, JScript?
 * What is the Document Object Model(DOM)?
 * What's the different between undefined and null? It's better to say something about why we need undefined if we have had null.
+* What's JavaScript strict mode? What's the intent for it? What does it do? How do you use it?
 * What is AJAX? What the work flow for AJAX? How to implement CROS? What's the difference synchronous and asynchronous for JavaScript?
 * Say something about JavaScript Encapsulation.
 * Say something about JavaScript Inheritance(Classical Versus Modern Inheritance).
@@ -42,6 +43,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Using only a single event handler on the parent, detect a swipe left and a swipe right and alert() which direction was swiped.
 * Write an example of a closure in javascript. It doesn't matter what the code does, as long as it shows a closure being created.
 * Difference between `document.write` and `innerHTML`.
+* How `delete` operator works in JavaScript? What exactly can and cannot be deleted and why.
 
 ## <a name='html'>HTML</a>
 
@@ -80,6 +82,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Why Table are bad for layout?
 * What's use case for float property? How to clear float?
 * What CSS selector have you ever used?
+* What's the difference between `cssRules` and `rules`
 
 ## <a name='http'>HTTP</a>
 
