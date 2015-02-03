@@ -54,10 +54,10 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Strict vs quirks modes – how to trigger each and why this matters.
 * Block vs inline elements – how to manipulate using CSS, how they effect things around them and your ability to style them.
 * Floating elements – how to use them, troubles with them, and how to work around the troubles.
-* HTML vs. XHTML – how they're different, why you might want to use one over the other.
+* HTML vs. XHTML(1.x&2) – how they're different, why you might want to use one over the other.
 * List semantic elements in HTML5 as much as you can and why we need them.
 * Write a 'Hello, Word!' html page. (whether get to know the necessary HTML tag for one page, DOCTYPE definition,...).
-* What's difference between XHTML and HTML4?
+* What's difference between XHTML 1.x and HTML4?
 * What's the difference betwee h1~h6? How's about difference between ul and ol?
 * Have you ever got a chance to use dl, dt, dd? What's the sematic for them?
 * What's the common properties used with `form`?
@@ -66,6 +66,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 
 ## <a name='css'>CSS</a>
 
+* What is CSS?
 * List the CSS hacks as much as you can.
 * What's the possible values of `display` property? What is block and inline element and what the difference between them? List block and inline tags as much as you can.
 * The box model - how margin, padding, and border are related and the difference between border-box (standards mode) and content-box (old Internet Explorer) sizing.
@@ -93,10 +94,11 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What's the difference between HTTP stateless and `Connection:keep-alive`?
 * What's the message structure for HTTP Request/Response?
 * What's the difference between HTTP status code 301 and 302? How search engines handle them?
-* What's the HTTP Header relead with cache? What's the usage for them?
+* What's the HTTP Header related with cache? What's the usage for them?
 * When you're sending a Ajax request, how to judge whether full server response has been received and it's OK for you to continue processing it?
 * Why we could avoid local cache when using CTRL+F5 or refresh button to reload the page?
 * Why we should put stylesheets at the top and put the scripts at the Bottom?
+* What a HTTP request/respone message packet includes?
 
 
 ## <a name='problem-solving'>Problem Solving</a>
