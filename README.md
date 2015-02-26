@@ -151,6 +151,10 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Partially apply a function by filling in any number of its arguments, without changing its dynamic this value. 
 * Implement _currying_ in which we could prefill arguments to a function before it's exectued.
 * Write your own function composition, returns the composition of a list of functions, where each function consumes the return value of the function that follows. In math terms, composing the functions `f()`, `g()`, and `h()` produces `f(g(h()))`.
+* Shuffle an array of numbers using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
+* Provide a polyfill of string trim function.
+* Get the max or the min in an array of numbers.
+* An HTML escaper function.
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
 > Algorithms are at the heart of every nontrivial computer application, and algorithmics is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
