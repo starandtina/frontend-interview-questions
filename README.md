@@ -44,6 +44,10 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Write an example of a closure in javascript. It doesn't matter what the code does, as long as it shows a closure being created.
 * Difference between `document.write` and `innerHTML`.
 * How `delete` operator works in JavaScript? What exactly can and cannot be deleted and why.
+* How does prototypal inheritance work?
+* What defines a closure?
+* How does the meaning of this keyword change?
+* How does one use apply/bind/map/filter/call?
 * Say how would you describe the flow-control steps of this program?
 
   ~~~JavaScript
