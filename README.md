@@ -53,6 +53,9 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
   ~~~JavaScript
   makeAjaxRequest( url, function(response){ alert( "Response: " + response ); } );
   ~~~
+* Write a factorial function.
+* Write a function that accepts a string a reverses it. Recursively.
+* Write a recursive map function.
 
 ## <a name='html'>HTML</a>
 
