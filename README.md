@@ -57,6 +57,26 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Write a factorial function.
 * Write a function that accepts a string a reverses it. Recursively.
 * Write a recursive map function.
+* What is the difference between these four promises?
+  ~~~JavaScript
+  doSomething().then(function () {
+    return doSomethingElse();
+  }).then(finalHandler);
+
+  doSomething()
+    .then(function () {
+      doSomethingElse();
+    })
+    .then(finalHandler);
+
+  doSomething()
+    .then(doSomethingElse())
+    .then(finalHandler);
+
+  doSomething()
+    .then(doSomethingElse)
+    .then(finalHandler);
+  ~~~
 
 ## <a name='html'>HTML</a>
 
@@ -71,8 +91,8 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * List semantic elements in HTML5 as much as you can and why we need them.
 * Write a 'Hello, Word!' html page. (whether get to know the necessary HTML tag for one page, DOCTYPE definition,...).
 * What's difference between XHTML 1.x and HTML4?
-* What's the difference betwee h1~h6? How's about difference between ul and ol?
-* Have you ever got a chance to use dl, dt, dd? What's the sematic for them?
+* What's the difference between h1~h6? How's about difference between ul and ol?
+* Have you ever got a chance to use dl, dt, dd? What's the semantic for them?
 * What's the common properties used with `form`?
 * What's going on if we don't set the `type` property for `input` element?
 * What's the use case if we set the `type` property as `image` for `input` element?
@@ -87,7 +107,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What is CSS stack and say something about it?
 * List the browser compatibility problems you have ever used or known.
 * List the possible values for `position` property and the result for every value.
-* List the possible values for `display` property and the resule for every value.
+* List the possible values for `display` property and the result for every value.
 * What is the distinguishing feature provided by `display: inline-block`?
 * Say something about CSS3, such as transition, animation, transform, etc..
 * What's box-sizing and when you need it?
@@ -111,7 +131,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * When you're sending a Ajax request, how to judge whether full server response has been received and it's OK for you to continue processing it?
 * Why we could avoid local cache when using CTRL+F5 or refresh button to reload the page?
 * Why we should put stylesheets at the top and put the scripts at the Bottom?
-* What a HTTP request/respone message packet includes?
+* What a HTTP request/response message packet includes?
 
 
 ## <a name='problem-solving'>Problem Solving</a>
@@ -146,7 +166,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
   ~~~JavaScript
   spacify('hello world') // => 'h e l l o w o r l d'
   ~~~~
-  If it's right, the follow-up question to this, is to place the spacify function directly on the String object, for example:
+  If it's right, the follow-up question to this, is to place the `spacify` function directly on the String object, for example:
 
   ~~~JavaScript
   'hello world'.spacify();
@@ -163,7 +183,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Provide a functional version of `each` or `forEach` used to iterates over a list of elements, yielding each in turn to an iteratee function.
 * Provide a functional version of `function.apply`.
 * Partially apply a function by filling in any number of its arguments, without changing its dynamic this value. 
-* Implement _currying_ in which we could prefill arguments to a function before it's exectued.
+* Implement _currying_ in which we could pre-fill arguments to a function before it's executed.
 * Write your own function composition, returns the composition of a list of functions, where each function consumes the return value of the function that follows. In math terms, composing the functions `f()`, `g()`, and `h()` produces `f(g(h()))`.
 * Shuffle an array of numbers using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
 * Provide a polyfill of string trim function.
@@ -171,7 +191,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * An HTML escaper function.
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
-> Algorithms are at the heart of every nontrivial computer application, and algorithmics is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
+> Algorithms are at the heart of every nontrivial computer application, and algorithmic is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
 event candidates is that they are very strong in this area.
 
 * Merge sort has a complexity of O(n*log n), making it one of the more efficient sorting algorithms available, also it's a stable sort. That's why Firefox and Safari use merge sort for their implementation of `Array.prototype.sort()`. Please implement `Array.prototype.sort()` using merge sort.
