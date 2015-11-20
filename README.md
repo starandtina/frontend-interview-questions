@@ -22,6 +22,8 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Do you have a account on Github?
   * If so, what are some examples of repos you follow?
 * Tell us what critical problems you have to handle in your latest projects?
+* Walk us through the process of creation of an application or website you've built.
+
 
 ## <a name='javascript'>JavaScript</a>
 
@@ -77,6 +79,12 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
     .then(doSomethingElse)
     .then(finalHandler);
   ~~~
+
+* Explain the use cases for, and differences between — `bind`, `apply` and `call`.
+* Explain event delegation and why it is useful.
+* What is the event loop?
+* How does hoisting work in JavaScript?
+* Which new JavaScript features are you most excited about and why?
 
 ## <a name='html'>HTML</a>
 
@@ -196,3 +204,13 @@ event candidates is that they are very strong in this area.
 
 * Merge sort has a complexity of O(n*log n), making it one of the more efficient sorting algorithms available, also it's a stable sort. That's why Firefox and Safari use merge sort for their implementation of `Array.prototype.sort()`. Please implement `Array.prototype.sort()` using merge sort.
 * Binary search implementation in JavaScript.
+* Define a function that returns n lines of [Pascal’s Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle).
+* Use recursion to log a fibonacci sequence of n length. (Notice: only need to log instead of calculating the result)
+
+  ~~~JavaScript
+  function fib(depth, n1, n2) {
+    if (!depth) { return; }
+    console.log(n1);
+    fib(depth-1, n2, n1 + n2);
+  }
+  ~~~
