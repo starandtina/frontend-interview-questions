@@ -214,3 +214,8 @@ event candidates is that they are very strong in this area.
     fib(depth-1, n2, n1 + n2);
   }
   ~~~
+
+
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
