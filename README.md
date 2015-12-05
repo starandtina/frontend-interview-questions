@@ -31,7 +31,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What is the Document Object Model(DOM)?
 * What's the different between undefined and null? It's better to say something about why we need undefined if we have had null.
 * What's JavaScript strict mode? What's the intent for it? What does it do? How do you use it?
-* What is AJAX? What the work flow for AJAX? How to implement CROS? What's the difference synchronous and asynchronous for JavaScript?
+* What is AJAX? What the work flow for AJAX? How to implement CORS? What's the difference synchronous and asynchronous for JavaScript?
 * Say something about JavaScript Encapsulation.
 * Say something about JavaScript Inheritance(Classical Versus Modern Inheritance).
 * What is Closure? 
