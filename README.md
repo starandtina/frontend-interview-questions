@@ -85,6 +85,23 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What is the event loop?
 * How does hoisting work in JavaScript?
 * Which new JavaScript features are you most excited about and why?
+* Prototypal inheritance is so cool for JavaScript especially when trying to keep code DRY and maintainable, but do you know what's the output for the code below?
+  ~~~JavaScript
+  var parent = {
+    get: function fn() {
+      return this.val;
+    },
+    val: 42
+  };
+
+  var child = Object.create(parent);
+  child.val = 3.14159;
+  var grandchild = Object.create(child);
+
+  console.log(parent.get());
+  console.log(child.get());
+  console.log(grandchild.get());
+  ~~~
 
 ## <a name='html'>HTML</a>
 
