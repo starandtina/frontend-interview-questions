@@ -162,7 +162,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 ## <a name='problem-solving'>Problem Solving</a>
 
 * Classic beginner programming problem: the guessing game. Here’s how it works: Our program will generate a random integer between one and a hundred. It will then prompt us to enter a guess. Upon entering our guess, it will tell us if we’re too low or too high. Once we guess correctly, it will congratulate us.
-* Add a `unique` method for Array in order to produce a duplicate-free version of the array using Vanilla JS.
+* Add a [`unique` method](https://jsfiddle.net/starandtina/87TSF/) for Array in order to produce a duplicate-free version of the array using Vanilla JS.
 * Implement deep clone for inheritance by copying properties from object using Vanilla JS.
 * Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as red.
 * Change all elements with className of `test` to yellow background using JavaScript or jQuery.
@@ -171,7 +171,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Generate random numbers that are consecutively unique.
 * Find the index of the smallest element in a JavaScript array.
 * Check whether a value is an integer in JavaScript.
-* Make it work:
+* [Make it work:](https://jsfiddle.net/starandtina/et7dnge8/)
 
   ~~~JavaScript
   [1, 2, 3].duplicate(); // [1, 2, 3] => [1, 2, 3, 1, 2, 3]
@@ -196,7 +196,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
   ~~~JavaScript
   'hello world'.spacify();
   ~~~~
-* Implement collection pivot: Pivot means put all the things left of the middle element right, and vice versa,  
+* [Implement collection pivot](https://jsfiddle.net/starandtina/e6n5h/): Pivot means put all the things left of the middle element right, and vice versa,  
   
   ~~~JavaScript
   Eg: Pivot {A, B, C} should give {C, B, A}
@@ -214,6 +214,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Provide a polyfill of string trim function.
 * Get the max or the min in an array of numbers.
 * An HTML escaper function.
+* [Find an item by property in an array](https://gist.github.com/starandtina/267f2935c2f3f1553ee5).
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
 > Algorithm is at the heart of every nontrivial computer application, and algorithmic is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
