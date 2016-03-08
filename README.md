@@ -162,7 +162,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 ## <a name='problem-solving'>Problem Solving</a>
 
 * Classic beginner programming problem: the guessing game. Here’s how it works: Our program will generate a random integer between one and a hundred. It will then prompt us to enter a guess. Upon entering our guess, it will tell us if we’re too low or too high. Once we guess correctly, it will congratulate us.
-* Add a [`unique` method](https://jsfiddle.net/starandtina/87TSF/) for Array in order to produce a duplicate-free version of the array using Vanilla JS.
+* Add a `unique` method for Array in order to produce a duplicate-free version of the array using [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) or [with ES5 compatiable JS](https://jsfiddle.net/starandtina/b6hbtbhz/).
 * Implement deep clone for inheritance by copying properties from object using Vanilla JS.
 * Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as red.
 * Change all elements with className of `test` to yellow background using JavaScript or jQuery.
