@@ -52,13 +52,34 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * How does the meaning of this keyword change?
 * How does one use apply/bind/map/filter/call?
 * Say how would you describe the flow-control steps of this program?
-
   ~~~JavaScript
   makeAjaxRequest( url, function(response){ alert( "Response: " + response ); } );
   ~~~
+
 * Write a factorial function.
-* Write a function that accepts a string a reverses it. Recursively.
-* Write a recursive map function.
+* Write a function that accepts a string then reverses it. Recursively is better.
+  ~~~JavaScript
+  function reverseString(str) {
+    return str.split("").reverse().join("");
+  }
+
+  // With Recursion
+  function reverseString(str) {
+    return (str === '') ? '' : reverseString(str.substr(1)) + str.charAt(0);
+  }
+  ~~~
+
+* Write a Recursivelye map function.
+  ~~~JavaScript
+  function map(arr, fn) {
+    if (arr.length === 0) {
+      return [];
+    }
+
+    return [fn(arr[0])].concat(map(arr.slice(1), fn));
+  }
+  ~~~
+
 * What is the difference between these four promises?
   ~~~JavaScript
   doSomething().then(function () {
