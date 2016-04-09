@@ -260,7 +260,13 @@ event candidates is that they are very strong in this area.
     fib(depth-1, n2, n1 + n2);
   }
   ~~~
+* How to find the longest word in a string with JavaScript?
 
+  ~~~JavaScript
+  "The quick brown fox jumped over the lazy dog".split(' ').sort(function (a, b) {
+    return b.length - a.length;
+  })[0].length;
+  ~~~
 
 ## License
 
