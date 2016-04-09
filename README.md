@@ -123,6 +123,13 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
   console.log(child.get());
   console.log(grandchild.get());
   ~~~
+* What is a pure function?
+
+  A pure function is a function which:
+    * Given the same input, will always return the same output.
+    * Produces no side effects.
+    * Relies on no external state.
+
 
 ## <a name='html'>HTML</a>
 
