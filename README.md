@@ -10,6 +10,7 @@ A curated list of frontend interview questions.
   1. [HTTP Questions](#http)
   1. [Problem Solving Questions](#problem-solving)
   1. [Algos, Data Structures, & Computer Science Fundamentals Questions](#algorithms)
+  1. [Basic Questions](#basic-questions)
 
 ----
 
@@ -228,7 +229,6 @@ ramp-up cost) or cut features
 * Why we should put stylesheets at the top and put the scripts at the Bottom?
 * What a HTTP request/response message packet includes?
 
-
 ## <a name='problem-solving'>Problem Solving</a>
 
 * Classic beginner programming problem: the guessing game. Here’s how it works: Our program will generate a random integer between one and a hundred. It will then prompt us to enter a guess. Upon entering our guess, it will tell us if we’re too low or too high. Once we guess correctly, it will congratulate us.
@@ -309,6 +309,70 @@ event candidates is that they are very strong in this area.
     return b.length - a.length;
   })[0].length;
   ~~~
+
+## <a name='basic-questions'>Basic Questions</a>
+
+~~~
+function foo(a, b, c) {
+  return a + b + c;
+}
+console.log(foo(1, 2));
+
+// --------------------------------------
+
+function DB() {
+  this.read = function () {
+    // ...
+    console.log('Call read method')
+  }
+}
+var db = new DB();
+var aRead = db.read;
+
+db.read();
+aRead();
+
+// --------------------------------------
+
+var parent = {
+  get: function fn() {
+    return this.val;
+  },
+  val: 1
+};
+
+var child = Object.create(parent);
+child.val = 3.14159;
+var grandchild = Object.create(child);
+
+console.log(parent.get());
+console.log(child.get());
+console.log(grandchild.get());
+
+// --------------------------------------
+
+for (var i = 1; i <= 5; i++) {
+  setTimeout(function timer() {
+    console.log(i);
+  }, i * 1000);
+}
+
+// --------------------------------------
+
+function foo() {
+  console.log(a);
+}
+
+function bar() {
+  var a = 3;
+
+  foo();
+}
+
+var a = 2;
+
+bar();
+~~~
 
 ## License
 
