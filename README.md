@@ -144,6 +144,15 @@ ramp-up cost) or cut features
     .then(finalHandler);
   ~~~
 
+* What's the result of the below JavaScript snippet in the native implementation?
+  ~~~JavaScript
+  setTimeout(function(){console.log("three");}, 0); 
+
+  Promise.resolve().then(function(){ console.log( "two" ); }); 
+
+  console.log("one");
+  ~~~
+
 * Explain the use cases for, and differences between — `bind`, `apply` and `call`.
 * Explain event delegation and why it is useful.
 * What is the event loop?
