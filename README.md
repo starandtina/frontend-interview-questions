@@ -146,9 +146,9 @@ ramp-up cost) or cut features
 
 * What's the result of the below JavaScript snippet in the native implementation?
   ~~~JavaScript
-  setTimeout(function(){console.log("three");}, 0); 
+  setTimeout(function(){console.log("three");}, 0);
 
-  Promise.resolve().then(function(){ console.log( "two" ); }); 
+  Promise.resolve().then(function(){ console.log( "two" ); });
 
   console.log("one");
   ~~~
