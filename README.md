@@ -34,7 +34,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * Do you love programming, or do you do it for the money?
 * Have you accomplished anything important in your career yet? Do you want to?
 * What would make you feel that you have done something important?
-* What's your favorite programming language? Why? 
+* What's your favorite programming language? Why?
 * If you could add one feature to your favorite language, what would it be? Why?
 * If you could remove one feature from it, what would it be? Why?
 * Suppose you could design your dream job that you'll be starting on Monday. It's at your ideal company with your ideal job title and salary. All you have to do is tell them what you want to do at your job and you can have it. What does your job entail? (Thanks! [nczonline](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/))
