@@ -11,6 +11,7 @@ A curated list of frontend interview questions.
   1. [Problem Solving Questions](#problem-solving)
   1. [Algos, Data Structures, & Computer Science Fundamentals Questions](#algorithms)
   1. [Basic Questions](#basic-questions)
+  1. [React](#react)
 
 ----
 
@@ -43,7 +44,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 
 * How to tackle a story/task which is difficult to estimate and with high risk?
 
-> 
+>
   - Investigate as early as possible
   - Assign senior staffs on the problem
   - More frequent update and more communication
@@ -52,10 +53,10 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * How to react to unexpected/frequent requirement changes, considering PoC phase and production phase.
 
 >
-  - For PoC: 
-    - communicate with team members to let them know things are changing. 
+  - For PoC:
+    - communicate with team members to let them know things are changing.
     - Proving the solution is more important than perfect design/implementation. For requirement changes, argue for the reason. If it is business reason, mostly we should follow. If it is technical reason, we should discuss first and then make decision.
-  - For production: 
+  - For production:
     - Setup a process first. A requirement change should result in following reactions after replan (re-estimation):
          - If it is not so urgent, keep working, change the future plan
          - If it is urgent, either request resource (considering the
@@ -75,7 +76,7 @@ ramp-up cost) or cut features
 * What is AJAX? What the work flow for AJAX? How to implement CORS? What's the difference synchronous and asynchronous for JavaScript?
 * Say something about JavaScript Encapsulation.
 * Say something about JavaScript Inheritance(Classical Versus Modern Inheritance).
-* What is Closure? 
+* What is Closure?
 * When and why you need to use `this` keyword?
 * How to handle cookie using JavaScript?
 * DOM manipulation – how to add, remove, move, copy, create, and find nodes.
@@ -266,7 +267,7 @@ ramp-up cost) or cut features
   div.innerHTML = tpl({ name: 'Neo' });
   document.body.appendChild(div);
   ~~~
-* Define a `spacify` function which takes a string as an argument, and returns the same string but with each character separated by a space, for example: 
+* Define a `spacify` function which takes a string as an argument, and returns the same string but with each character separated by a space, for example:
 
   ~~~JavaScript
   spacify('hello world') // => 'h e l l o w o r l d'
@@ -276,8 +277,8 @@ ramp-up cost) or cut features
   ~~~JavaScript
   'hello world'.spacify();
   ~~~~
-* [Implement collection pivot](https://jsfiddle.net/starandtina/e6n5h/): Pivot means put all the things left of the middle element right, and vice versa,  
-  
+* [Implement collection pivot](https://jsfiddle.net/starandtina/e6n5h/): Pivot means put all the things left of the middle element right, and vice versa,
+
   ~~~JavaScript
   Eg: Pivot {A, B, C} should give {C, B, A}
         Pivot { 1, 2, 3, 4 } should give { 3, 4, 1, 2 }
@@ -287,7 +288,7 @@ ramp-up cost) or cut features
   ~~~
 * Provide a functional version of `each` or `forEach` used to iterates over a list of elements, yielding each in turn to an iteratee function.
 * Provide a functional version of `function.apply`.
-* Partially apply a function by filling in any number of its arguments, without changing its dynamic this value. 
+* Partially apply a function by filling in any number of its arguments, without changing its dynamic this value.
 * Implement _currying_ in which we could pre-fill arguments to a function before it's executed.
 * Write your own function composition, returns the composition of a list of functions, where each function consumes the return value of the function that follows. In math terms, composing the functions `f()`, `g()`, and `h()` produces `f(g(h()))`.
 * Shuffle an array of numbers using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
@@ -383,6 +384,44 @@ var a = 2;
 
 bar();
 ~~~
+
+## <a name='react'>React</a>
+
+- When does **React** will trigger re-render?
+- What happens when you call setState?
+- What’s the difference between an Element and a Component in **React**?
+- When would you use a Class Component over a Functional Component?
+- What are refs in **React** and why are they important? Can we use the refs in functional components?
+- What are keys in **React** and why are they important?
+- If you created a **React** element like Twitter below, what would the component definition of Twitter look like?
+
+~~~JavaScript
+<Twitter username='tylermcginnis33’>
+ {(user) => user === null ? <Loading /> : <Badge info={user} />}
+</Twitter>
+~~~
+
+- What is the difference between a controlled component and an uncontrolled component
+- In which lifecycle event do you make AJAX requests and why?
+- What does shouldComponentUpdate do and why is it important?
+- How do you tell **React** to build in Production mode and what will that do?
+- Why would you use `React.Children.map(props.children, () =>)` instead of `props.children.map(() =>)`
+- Describe how events are handled in **React**.
+- What is the difference between createElement and cloneElement?
+- What is the second argument that can optionally be passed to setState and what is its purpose?
+- What’s wrong with this code?
+
+~~~Shell
+this.setState((prevState, props) => {
+  return {
+    streak: prevState.streak + props.count
+  }
+})
+~~~
+
+- What’s **context** why we need it?
+- What's the **Presentational** and **Container** components and why its so important?
+
 
 ## License
 
