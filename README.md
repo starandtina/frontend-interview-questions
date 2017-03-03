@@ -396,7 +396,7 @@ bar();
 - If you created a **React** element like Twitter below, what would the component definition of Twitter look like?
 
 ~~~JavaScript
-<Twitter username='tylermcginnis33’>
+<Twitter username='starandtina'>
  {(user) => user === null ? <Loading /> : <Badge info={user} />}
 </Twitter>
 ~~~
@@ -411,7 +411,7 @@ bar();
 - What is the second argument that can optionally be passed to setState and what is its purpose?
 - What’s wrong with this code?
 
-~~~Shell
+~~~JavaScript
 this.setState((prevState, props) => {
   return {
     streak: prevState.streak + props.count
