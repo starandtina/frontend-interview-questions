@@ -183,7 +183,7 @@ ramp-up cost) or cut features
     * Given the same input, will always return the same output.
     * Produces no side effects.
     * Relies on no external state.
-
+* How to determine if the value is a number? (Side note: `typeof value === 'number'` would gives the set of numbers **AND** `NaN` )
 
 ## <a name='html'>HTML</a>
 
