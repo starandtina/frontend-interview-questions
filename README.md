@@ -419,6 +419,16 @@ this.setState((prevState, props) => {
 })
 ~~~
 
+- What's the result of `state.count` and why? If it's not what you want and how to fix it?
+
+~~~JavaScript
+// assuming state.count === 0
+this.setState({count: state.count + 1})
+this.setState({count: state.count + 1})
+this.setState({count: state.count + 1})
+// state.count === 1 or 3
+~~~
+
 - What’s **context** why we need it?
 - What's the **Presentational** and **Container** components and why its so important?
 - Why this kind of error occues? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
