@@ -432,6 +432,7 @@ this.setState({count: state.count + 1})
 - What’s **context** why we need it?
 - What's the **Presentational** and **Container** components and why its so important?
 - Why this kind of error occues? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
+- How would you make the choise between **Redux** and **React's setState**?
 
 ## License
 
