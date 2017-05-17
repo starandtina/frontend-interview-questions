@@ -17,12 +17,12 @@ A curated list of frontend interview questions.
 
 ## <a name='general'>General/Ice Breaker</a>
 
->You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting the your bar.
+>You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting your bar.
 Once you've calmed a nervous candidate's nerves or determined level of passion/enthusiasm, move on to the next set of questions. Try to spend a maximum of 5 minutes on this section.
 
 * Tell us about your most recent project.
 * Do you ever do any coding in your personal time (outside of work)?
-* Do you have a account on Github?
+* Do you have an account on Github?
   * If so, what are some examples of repos you follow?
 * Tell us what critical problems you have to handle in your latest projects?
 * Walk us through the process of creation of an application or website you've built.
@@ -31,7 +31,7 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 * What was your favorite technical book in the past year? What did you learn from it?
 * What websites do you read regularly, related to development?
 * Do you maintain any open-source projects?
-* Do you code in your spare-time?
+* Do you code in your spare time?
 * Do you love programming, or do you do it for the money?
 * Have you accomplished anything important in your career yet? Do you want to?
 * What would make you feel that you have done something important?
@@ -43,37 +43,33 @@ Once you've calmed a nervous candidate's nerves or determined level of passion/e
 ## <a name='management'>Management</a>
 
 * How to tackle a story/task which is difficult to estimate and with high risk?
-
->
-  - Investigate as early as possible
-  - Assign senior staffs on the problem
-  - More frequent update and more communication
-  - Report higher level supervisors to be aware of the situation
+    - Investigate as early as possible
+    - Assign senior staffs on the problem
+    - More frequent update and more communication
+    - Report higher level supervisors to be aware of the situation
 
 * How to react to unexpected/frequent requirement changes, considering PoC phase and production phase.
-
->
-  - For PoC:
-    - communicate with team members to let them know things are changing.
-    - Proving the solution is more important than perfect design/implementation. For requirement changes, argue for the reason. If it is business reason, mostly we should follow. If it is technical reason, we should discuss first and then make decision.
-  - For production:
-    - Setup a process first. A requirement change should result in following reactions after replan (re-estimation):
+    - For PoC:
+      - communicate with team members to let them know things are changing.
+      - Proving the solution is more important than perfect design/implementation. For requirement changes, argue for the reason. If it is the business reason, mostly we should follow. If it is the technical reason, we should discuss first and then make the decision.
+    - For production:
+      - Setup a process first. A requirement change should result in following reactions after re-plan (re-estimation):
          - If it is not so urgent, keep working, change the future plan
          - If it is urgent, either request resource (considering the
 ramp-up cost) or cut features
-         - If not possible, suggest delay the release date
+         - If not possible, suggest delaying the release date
 
-* How to keep a team stable with limited offer. (How's about if you can't increase the compensation while the competitors can give more)
+* How to keep a team stable with the limited offer. (How's about if you can't increase the compensation while the competitors can give more)
 
->Basically, setup a good working environment all the time, making team members work happily, and with good development direction and opportunity. If things really happens, resort to higher-level manager and HR to find out a solution.
+>Basically, setup a good working environment all the time, making team members work happily, and with good development direction and opportunity. If things really happen, resort to higher-level manager and HR to find out a solution.
 
 ## <a name='javascript'>JavaScript</a>
 
 * What is ECMAScript, JScript?
 * What is the Document Object Model(DOM)?
-* What's the different between undefined and null? It's better to say something about why we need undefined if we have had null.
+* What's different between undefined and null? It's better to say something about why we need undefined if we have had null.
 * What's JavaScript strict mode? What's the intent for it? What does it do? How do you use it?
-* What is AJAX? What the work flow for AJAX? How to implement CORS? What's the difference synchronous and asynchronous for JavaScript?
+* What is AJAX? What the workflow for AJAX? How to implement CORS? What's the difference synchronous and asynchronous for JavaScript?
 * Say something about JavaScript Encapsulation.
 * Say something about JavaScript Inheritance(Classical Versus Modern Inheritance).
 * What is Closure?
@@ -84,15 +80,15 @@ ramp-up cost) or cut features
 * Events - how to use them and the major differences between IE and the DOM event models?
 * XMLHttpRequest – what it is, how to perform a complete GET request, how to detect errors?
 * JSON – what it is, why you'd want to use it, how to actually use it, implementation details?
-* Promise - what it is, and why we need that? What problems it solve?
+* Promise - what it is, and why we need that? What problems do it solve?
 * Using only a single event handler on the parent, detect a swipe left and a swipe right and alert() which direction was swiped.
-* Write an example of a closure in javascript. It doesn't matter what the code does, as long as it shows a closure being created.
+* Write an example of a closure in javascript. It doesn't matter what the code does, as long as it shows a closure is created.
 * Difference between `document.write` and `innerHTML`.
 * How `delete` operator works in JavaScript? What exactly can and cannot be deleted and why.
 * How does prototypal inheritance work?
 * What defines a closure?
 * How does the meaning of this keyword change?
-* How does one use apply/bind/map/filter/call?
+* How does one use to apply/bind/map/filter/call?
 * Say how would you describe the flow-control steps of this program?
   ~~~JavaScript
   makeAjaxRequest( url, function(response){ alert( "Response: " + response ); } );
@@ -114,7 +110,7 @@ ramp-up cost) or cut features
   [...str].reverse().join('')
   ~~~
 
-* Write a Recursivelye map function.
+* Write a recursively map function.
   ~~~JavaScript
   function map(arr, fn) {
     if (arr.length === 0) {
@@ -198,7 +194,7 @@ ramp-up cost) or cut features
 * List semantic elements in HTML5 as much as you can and why we need them.
 * Write a 'Hello, Word!' html page. (whether get to know the necessary HTML tag for one page, DOCTYPE definition,...).
 * What's difference between XHTML 1.x and HTML4?
-* What's the difference between h1~h6? How's about difference between ul and ol?
+* What's the difference between h1~h6? How's about the difference between ul and ol?
 * Have you ever got a chance to use dl, dt, dd? What's the semantic for them?
 * What's the common properties used with `form`?
 * What's going on if we don't set the `type` property for `input` element?
@@ -219,7 +215,7 @@ ramp-up cost) or cut features
 * Say something about CSS3, such as transition, animation, transform, etc..
 * What's box-sizing and when you need it?
 * What's CSS transform?
-* Say something about Flexbox: why we need it? how it works? how we use it?
+* Say something about Flexbox: why we need it? how does it work? how we use it?
 * Why Table are bad for layout?
 * What's use case for float property? How to clear float?
 * What CSS selector have you ever used?
@@ -230,23 +226,23 @@ ramp-up cost) or cut features
 * List HTTP status codes as much as you can.
 * What's the meaning for HTTP status of 200, 302, 304, 404, 500, 503.
 * Introduce something about Web Cache or HTTP caching, such as what's Conditional GET Requests? Etags? Expires? Cache-Control?
-* What's the difference between Get and Post http method?
+* What's the difference between `Get` and `Post`  method?
 * What's the difference between HTTP stateless and `Connection:keep-alive`?
 * What's the message structure for HTTP Request/Response?
 * What's the difference between HTTP status code 301 and 302? How search engines handle them?
 * What's the HTTP Header related with cache? What's the usage for them?
-* When you're sending a Ajax request, how to judge whether full server response has been received and it's OK for you to continue processing it?
+* When you're sending an Ajax request, how to judge whether full server response has been received and it's OK for you to continue processing it?
 * Why we could avoid local cache when using CTRL+F5 or refresh button to reload the page?
 * Why we should put stylesheets at the top and put the scripts at the Bottom?
-* What a HTTP request/response message packet includes?
+* What an HTTP request/response message packet includes?
 
 ## <a name='problem-solving'>Problem Solving</a>
 
 * Classic beginner programming problem: the guessing game. Here’s how it works: Our program will generate a random integer between one and a hundred. It will then prompt us to enter a guess. Upon entering our guess, it will tell us if we’re too low or too high. Once we guess correctly, it will congratulate us.
-* Add a `unique` method for Array in order to produce a duplicate-free version of the array using [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) or [with ES5 compatiable JS](https://jsfiddle.net/starandtina/b6hbtbhz/).
-* Implement deep clone for inheritance by copying properties from object using Vanilla JS.
+* Add a `unique` method for Array in order to produce a duplicate-free version of the array using [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) or [with ES5 compatible JS](https://jsfiddle.net/starandtina/b6hbtbhz/).
+* Implement deep clone for inheritance by copying properties from the object using Vanilla JS.
 * Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as red.
-* Change all elements with className of `test` to yellow background using JavaScript or jQuery.
+* Change all elements with className of `test` to the yellow background using JavaScript or jQuery.
 * Write a marquee program using JavaScript.
 * Translate your hexadecimal color value to RGB.
 * Generate random numbers that are consecutively unique.
@@ -304,7 +300,7 @@ event candidates is that they are very strong in this area.
 * Merge sort has a complexity of O(n*log n), making it one of the more efficient sorting algorithms available, also it's a stable sort. That's why Firefox and Safari use merge sort for their implementation of `Array.prototype.sort()`. Please implement `Array.prototype.sort()` using merge sort.
 * Binary search implementation in JavaScript.
 * Define a function that returns n lines of [Pascal’s Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle).
-* Use recursion to log a fibonacci sequence of n length. (Notice: only need to log instead of calculating the result)
+* Use recursion to log a Fibonacci sequence of n length. (Notice: only need to log instead of calculating the result)
 
   ~~~JavaScript
   function fib(depth, n1, n2) {
@@ -430,9 +426,9 @@ this.setState({count: state.count + 1})
 ~~~
 
 - What’s **context** why we need it?
-- What's the **Presentational** and **Container** components and why its so important?
-- Why this kind of error occues? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
-- How would you make the choise between **Redux** and **React's setState**?
+- What's the **Presentational** and **Container** components and why it's so important?
+- Why this kind of error occurs? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
+- How would you make the choice between **Redux** and **React's setState**?
 
 ## License
 
