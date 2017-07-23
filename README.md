@@ -429,6 +429,7 @@ this.setState({count: state.count + 1})
 - What's the **Presentational** and **Container** components and why it's so important?
 - Why this kind of error occurs? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
 - How would you make the choice between **Redux** and **React's setState**?
+- [12 Essential React.js Interview Questions*](https://www.toptal.com/react/interview-questions)
 
 ## License
 
