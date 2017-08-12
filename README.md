@@ -430,6 +430,7 @@ this.setState({count: state.count + 1})
 - Why this kind of error occurs? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
 - How would you make the choice between **Redux** and **React's setState**?
 - [12 Essential React.js Interview Questions*](https://www.toptal.com/react/interview-questions)
+- How should we structure the data in our Redux store?
 
 ## License
 
