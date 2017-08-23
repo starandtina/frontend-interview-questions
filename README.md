@@ -10,14 +10,14 @@ A curated list of frontend interview questions.
   1. [HTTP Questions](#http)
   1. [Problem Solving Questions](#problem-solving)
   1. [Algos, Data Structures, & Computer Science Fundamentals Questions](#algorithms)
-  1. [Basic Questions](#basic-questions)
+  1. [General Evaluation Questions](#general-evaluation-questions)
   1. [React](#react)
 
 ----
 
 ## <a name='general'>General/Ice Breaker</a>
 
->You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting your bar.
+> You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting your bar.
 Once you've calmed a nervous candidate's nerves or determined level of passion/enthusiasm, move on to the next set of questions. Try to spend a maximum of 5 minutes on this section.
 
 * Tell us about your most recent project.
@@ -61,7 +61,7 @@ ramp-up cost) or cut features
 
 * How to keep a team stable with the limited offer. (How's about if you can't increase the compensation while the competitors can give more)
 
->Basically, setup a good working environment all the time, making team members work happily, and with good development direction and opportunity. If things really happen, resort to higher-level manager and HR to find out a solution.
+> Basically, setup a good working environment all the time, making team members work happily, and with good development direction and opportunity. If things really happen, resort to higher-level manager and HR to find out a solution.
 
 ## <a name='javascript'>JavaScript</a>
 
@@ -294,6 +294,7 @@ ramp-up cost) or cut features
 * [Find an item by property in an array](https://gist.github.com/starandtina/267f2935c2f3f1553ee5).
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
+
 > Algorithm is at the heart of every nontrivial computer application, and algorithmic is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
 event candidates is that they are very strong in this area.
 
@@ -317,7 +318,62 @@ event candidates is that they are very strong in this area.
   })[0].length;
   ~~~
 
-## <a name='basic-questions'>Basic Questions</a>
+## <a name='react'>React</a>
+
+> React is a library that’s designed to be one piece of the puzzle. React provides a thin view layer and leaves it to the developer to choose the remaining pieces of the architecture. Nothing comes in the box, so your team has full control over everything that you use. Choose-your-adventure works well if you have a team of experienced JavaScript developers who are comfortable with functional programming and immutable data structures. The React community is on the cutting edge of innovation in the use of web technologies. If your organization needs to target many platforms with the same codebase, knowing React will allow you to write for the web, for native with React Native, and for VR devices with ReactVR.
+
+- When does **React** will trigger re-render?
+- What happens when you call setState?
+- What’s the difference between an Element and a Component in **React**?
+- When would you use a Class Component over a Functional Component?
+- What are refs in **React** and why are they important? Can we use the refs in functional components?
+- What are keys in **React** and why are they important?
+- If you created a **React** element like Twitter below, what would the component definition of Twitter look like?
+
+~~~JavaScript
+<Twitter username='starandtina'>
+ {(user) => user === null ? <Loading /> : <Badge info={user} />}
+</Twitter>
+~~~
+
+- What is the difference between a controlled component and an uncontrolled component
+- In which lifecycle event do you make AJAX requests and why?
+- What does shouldComponentUpdate do and why is it important?
+- How do you tell **React** to build in Production mode and what will that do?
+- Why would you use `React.Children.map(props.children, () =>)` instead of `props.children.map(() =>)`
+- Describe how events are handled in **React**.
+- What is the difference between createElement and cloneElement?
+- What is the second argument that can optionally be passed to setState and what is its purpose?
+- What’s wrong with this code?
+
+~~~JavaScript
+this.setState((prevState, props) => {
+  return {
+    streak: prevState.streak + props.count
+  }
+})
+~~~
+
+- What's the result of `state.count` and why? If it's not what you want and how to fix it?
+
+~~~JavaScript
+// assuming state.count === 0
+this.setState({count: state.count + 1})
+this.setState({count: state.count + 1})
+this.setState({count: state.count + 1})
+// state.count === 1 or 3
+~~~
+
+- What’s **context** why we need it?
+- What's the **Presentational** and **Container** components and why it's so important?
+- Why this kind of error occurs? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
+- How would you make the choice between **Redux** and **React's setState**?
+- [12 Essential React.js Interview Questions*](https://www.toptal.com/react/interview-questions)
+- How should we structure the data in our Redux store?
+
+## <a name='general-evaluation-questions'>General Evaluation Questions</a>
+
+> Here are some general evaluation questions in terms of technical interview for checking candidate's background quickly
 
 ~~~
 function foo(a, b, c) {
@@ -380,57 +436,6 @@ var a = 2;
 
 bar();
 ~~~
-
-## <a name='react'>React</a>
-
-- When does **React** will trigger re-render?
-- What happens when you call setState?
-- What’s the difference between an Element and a Component in **React**?
-- When would you use a Class Component over a Functional Component?
-- What are refs in **React** and why are they important? Can we use the refs in functional components?
-- What are keys in **React** and why are they important?
-- If you created a **React** element like Twitter below, what would the component definition of Twitter look like?
-
-~~~JavaScript
-<Twitter username='starandtina'>
- {(user) => user === null ? <Loading /> : <Badge info={user} />}
-</Twitter>
-~~~
-
-- What is the difference between a controlled component and an uncontrolled component
-- In which lifecycle event do you make AJAX requests and why?
-- What does shouldComponentUpdate do and why is it important?
-- How do you tell **React** to build in Production mode and what will that do?
-- Why would you use `React.Children.map(props.children, () =>)` instead of `props.children.map(() =>)`
-- Describe how events are handled in **React**.
-- What is the difference between createElement and cloneElement?
-- What is the second argument that can optionally be passed to setState and what is its purpose?
-- What’s wrong with this code?
-
-~~~JavaScript
-this.setState((prevState, props) => {
-  return {
-    streak: prevState.streak + props.count
-  }
-})
-~~~
-
-- What's the result of `state.count` and why? If it's not what you want and how to fix it?
-
-~~~JavaScript
-// assuming state.count === 0
-this.setState({count: state.count + 1})
-this.setState({count: state.count + 1})
-this.setState({count: state.count + 1})
-// state.count === 1 or 3
-~~~
-
-- What’s **context** why we need it?
-- What's the **Presentational** and **Container** components and why it's so important?
-- Why this kind of error occurs? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
-- How would you make the choice between **Redux** and **React's setState**?
-- [12 Essential React.js Interview Questions*](https://www.toptal.com/react/interview-questions)
-- How should we structure the data in our Redux store?
 
 ## License
 
