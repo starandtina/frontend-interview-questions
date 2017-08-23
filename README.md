@@ -179,7 +179,21 @@ ramp-up cost) or cut features
     * Given the same input, will always return the same output.
     * Produces no side effects.
     * Relies on no external state.
+
 * How to determine if the value is a number? (Side note: `typeof value === 'number'` would gives the set of numbers **AND** `NaN` )
+* How to get the type for the values below:
+
+```
+ NaN, 0, 1, Infinity,                // numbers
+ null, undefined, false, 'str',      // other primitives
+ new String('a'), new Boolean(true), // wrapped primitives
+ {}, [], new Map, new WeakSet(),     // containers
+ /regex/, new Date(),                // other custom objects
+ window, navigator,                  // native objects
+ function () {}, (() => {}), atob,   // functions
+ Symbol(),                           // symbol
+ {[Symbol.toStringTag]: 'Custom'}    // @@ToStringTag
+```
 
 ## <a name='html'>HTML</a>
 
