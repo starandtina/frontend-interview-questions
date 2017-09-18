@@ -195,6 +195,24 @@ ramp-up cost) or cut features
  {[Symbol.toStringTag]: 'Custom'}    // @@ToStringTag
 ```
 
+* In what order should the logs appear?
+
+```
+console.log('script start')
+setTimeout(function() {
+  console.log('setTimeout')
+}, 0)
+Promise.resolve()
+  .then(function() {
+    console.log('promise1')
+  })
+  .then(function() {
+    console.log('promise2')
+  })
+console.log('script end')
+
+```
+
 ## <a name='html'>HTML</a>
 
 * What is `<!DOCTYPE>` tag? How to use it?
