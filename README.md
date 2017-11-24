@@ -402,6 +402,7 @@ this.setState({count: state.count + 1})
 - How would you make the choice between **Redux** and **React's setState**?
 - [12 Essential React.js Interview Questions*](https://www.toptal.com/react/interview-questions)
 - How should we structure the data in our Redux store?
+- What's new in **React 16**?
 
 ## <a name='general-evaluation-questions'>General Evaluation Questions</a>
 
