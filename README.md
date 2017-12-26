@@ -409,7 +409,7 @@ It is because setState alters the state and causes rerendering. This can be an e
 - What’s **context** why we need it?
 - [What's the **Presentational** and **Container** components and why it's so important?](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.ky4oqu4f2)
 - Why should I use an immutable-focused library such as immutable.js or seamless-immutable? ImmutableData
-- Why this kind of error occurs? **Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**
+- Why this kind of error occurs? [**Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag.**](https://stackoverflow.com/questions/31284169/parse-error-adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag)
 - How would you make the choice between **Redux** and **React's setState**?
 - [12 Essential React.js Interview Questions](https://www.toptal.com/react/interview-questions)
 - How should we structure the data in our Redux store?
