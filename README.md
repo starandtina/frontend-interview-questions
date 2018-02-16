@@ -354,12 +354,17 @@ event candidates is that they are very strong in this area.
 
 > React is a library that’s designed to be one piece of the puzzle. React provides a thin view layer and leaves it to the developer to choose the remaining pieces of the architecture. Nothing comes in the box, so your team has full control over everything that you use. Choose-your-adventure works well if you have a team of experienced JavaScript developers who are comfortable with functional programming and immutable data structures. The React community is on the cutting edge of innovation in the use of web technologies. If your organization needs to target many platforms with the same codebase, knowing React will allow you to write for the web, for native with React Native, and for VR devices with ReactVR.
 
+- [What's the difference between **jQuery** and **React**?](https://www.quora.com/What-is-the-difference-between-JQuery-AngularJS-and-ReactJS)
 - When does **React** will trigger re-render?
 - What happens when you call setState?
-- What’s the difference between an Element and a Component in **React**?
+- What's the difference between an Element and a Component in **React**?
 - When would you use a Class Component over a Functional Component?
 - What are refs in **React** and why are they important? Can we use the refs in functional components?
 - What are keys in **React** and why are they important?
+- [How to share state between two components(they are siblings or not) in **React**?](https://reactjs.org/docs/lifting-state-up.html)
+
+> In **React**, sharing state is accomplished by moving it up to the closest common ancestor of the components that need it
+
 - If you created a **React** element like Twitter below, what would the component definition of Twitter look like?
 
 ~~~JavaScript
@@ -421,6 +426,8 @@ It is because setState alters the state and causes rerendering. This can be an e
 - What's new in **React 16**?
 
 ## <a name='general-evaluation-questions'>General Evaluation Questions</a>
+
+- [How to improve your React web app performance?](https://reactjs.org/docs/optimizing-performance.html)
 
 > Here are some general evaluation questions in terms of technical interview for checking candidate's background quickly
 
