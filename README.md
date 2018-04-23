@@ -179,7 +179,27 @@ ramp-up cost) or cut features
     * Given the same input, will always return the same output.
     * Produces no side effects.
     * Relies on no external state.
+* How to get a JavaScript object's class name? What's the output of the code below?
 
+  ~~~JavaScript
+  function Foo(bar) {
+    this.bar = bar;
+  }
+
+  Foo.prototype.isEqualToBar = function(bar) {
+    return this.bar === bar;
+  };
+  var foo1 = new Foo(1);
+  console.log(foo1.constructor.name); // Foo
+
+  Foo.prototype = {
+    isEqualToBar: function(bar) {
+      return this.bar === bar;
+    }
+  };
+  var foo2 = new Foo(2);
+  console.log(foo2.constructor.name); // Object
+  ~~~
 * How to determine if the value is a number? (Side note: `typeof value === 'number'` would gives the set of numbers **AND** `NaN` )
 * How to get the type for the values below:
 
