@@ -20,7 +20,9 @@ A curated list of frontend interview questions.
 > You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting your bar.
 Once you've calmed a nervous candidate's nerves or determined level of passion/enthusiasm, move on to the next set of questions. Try to spend a maximum of 5 minutes on this section.
 
+* Tell us about your latest working experiences, teck stacks and your interests.
 * Tell us about your most recent project.
+* What's your biggest challenge since you began to work? Do you get any self-improvement? Do you make any contribution to your companies?
 * Do you ever do any coding in your personal time (outside of work)?
 * Do you have an account on Github?
   * If so, what are some examples of repos you follow?
@@ -231,6 +233,7 @@ console.log('script end')
 * What's the common properties used with `form`?
 * What's going on if we don't set the `type` property for `input` element?
 * What's the use case if we set the `type` property as `image` for `input` element?
+* What's the purpose for the `viewport`? What's the common control props you had ever used with `viewport`?
 
 ## <a name='css'>CSS</a>
 
@@ -252,6 +255,8 @@ console.log('script end')
 * What's use case for float property? How to clear float?
 * What CSS selector have you ever used?
 * What's the difference between `cssRules` and `rules`
+* How to effectively orgainize the CSS files for large projects?
+* How to handle the naming conflicts and specificity problem in your CSS files? 
 
 ## <a name='http'>HTTP</a>
 
